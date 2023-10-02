@@ -1,0 +1,14 @@
+no,flow_regime,reynolds_number
+1,laminar,100
+2,laminar,200
+3,laminar,400
+4,laminar,800
+5,laminar,1600
+6,laminar,2000
+7,turbulent,4000
+8,turbulent,6000
+9,turbulent,8000
+10,turbulent,10000
+11,turbulent,12000
+12,turbulent,16000
+13,turbulent,20000
