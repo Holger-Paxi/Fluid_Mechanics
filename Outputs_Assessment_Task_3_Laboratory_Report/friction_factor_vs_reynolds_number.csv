@@ -1,0 +1,14 @@
+no,flow_regime,reynolds_number,friction_factor
+1,laminar,100,0.64
+2,laminar,200,0.32
+3,laminar,400,0.16
+4,laminar,800,0.08
+5,laminar,1600,0.04
+6,laminar,2000,0.032
+7,turbulent,4000,0.016
+8,turbulent,6000,0.010666666666666666
+9,turbulent,8000,0.008
+10,turbulent,10000,0.0064
+11,turbulent,12000,0.005333333333333333
+12,turbulent,16000,0.004
+13,turbulent,20000,0.0032
