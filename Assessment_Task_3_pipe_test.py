@@ -1,5 +1,6 @@
 # %%
 import pandas as pd
+import numpy as np
 import math
 import glob
 import os
@@ -164,6 +165,8 @@ def calculations(arg_file_path, arg_file_name, arg_output_dir=output_dir, arg_vi
     ax.plot(theoretical_values.reynolds_number.to_numpy(), theoretical_values.friction_factor.to_numpy(), '-o', label='theoretical')
     ax.plot([2300,2300], [0, 1])
     ax.plot([4000,4000], [0, 1])
+    for ind1, ind2, ind3 in zip(np.arange(start=1, stop=len(test)+1), test.reynolds_number.to_numpy(), test.friction_factor.to_numpy()):
+        ax.annotate(text=ind1, xy=(ind2, ind3), xytext=(0, 5), textcoords='offset points', fontsize=8)
     ax.legend()
     ax.set_xscale(value='log')
     ax.set_yscale(value='log')
@@ -182,6 +185,8 @@ def calculations(arg_file_path, arg_file_name, arg_output_dir=output_dir, arg_vi
     # plot
     fig, ax = plt.subplots(figsize=(10,6))
     ax.plot(test.velocity.to_numpy(), test.head_loss.to_numpy(), '-o', label='experimental')
+    for ind1, ind2, ind3 in zip(np.arange(start=1, stop=len(test)+1), test.velocity.to_numpy(), test.head_loss.to_numpy()):
+        ax.annotate(text=ind1, xy=(ind2, ind3), xytext=(0, 5), textcoords='offset points', fontsize=8)
     ax.legend()
     ax.set_xscale(value='log')
     ax.set_yscale(value='log')
