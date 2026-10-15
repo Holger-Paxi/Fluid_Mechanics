@@ -122,8 +122,8 @@ def calculations(
         arg_theoretical_values.friction_factor.to_numpy(), 
         '-o', label='theoretical'
     )
-    ax.plot([2300,2300], [0, 1])
-    ax.plot([4000,4000], [0, 1])
+    ax.axvline(x=2300)
+    ax.axvline(x=4000)
     for ind1, ind2, ind3 in zip(
         # np.arange(start=1, stop=len(test)+1), 
         test.index.to_numpy(),
@@ -155,7 +155,14 @@ def calculations(
 
     # plot
     fig, ax = plt.subplots(figsize=(10,6))
-    ax.plot(test.velocity.to_numpy(), test.head_loss.to_numpy(), '-o', label='experimental')
+    ax.plot(
+        # test.velocity.to_numpy(), 
+        # test.head_loss.to_numpy(), 
+        test.loc[valid, 'velocity'],
+        test.loc[valid, 'head_loss'],
+        '-o', 
+        label='experimental'
+    )
     for ind1, ind2, ind3 in zip(
         # np.arange(start=1, stop=len(test)+1), 
         test.index.to_numpy(),
