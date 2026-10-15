@@ -130,7 +130,7 @@ def calculations(
         test.reynolds_number.to_numpy(), 
         test.friction_factor.to_numpy()
     ):
-        ax.annotate(text=ind1, xy=(ind2, ind3), xytext=(0, 5), textcoords='offset points', fontsize=8)
+        ax.annotate(text=ind1+1, xy=(ind2, ind3), xytext=(0, 5), textcoords='offset points', fontsize=8)
     ax.legend()
     ax.set_xscale(value='log')
     ax.set_yscale(value='log')
@@ -162,7 +162,7 @@ def calculations(
         test.velocity.to_numpy(), 
         test.head_loss.to_numpy()
     ):
-        ax.annotate(text=ind1, xy=(ind2, ind3), xytext=(0, 5), textcoords='offset points', fontsize=8)
+        ax.annotate(text=ind1+1, xy=(ind2, ind3), xytext=(0, 5), textcoords='offset points', fontsize=8)
     ax.legend()
     ax.set_xscale(value='log')
     ax.set_yscale(value='log')
