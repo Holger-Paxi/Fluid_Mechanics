@@ -101,7 +101,7 @@ def calculations(arg_file_path, arg_file_name, arg_output_dir, arg_dist, arg_are
     fig.clf()
     plt.close(fig=fig)
 
-    print(f'{fname}')
+    print(f'![Plot]({fname})')
     print()
 
 # %%

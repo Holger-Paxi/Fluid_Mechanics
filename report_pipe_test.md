@@ -21,7 +21,7 @@ dst: ./outputs/
 |   12 | turbulent     |             16000 |         0.0280968 |
 |   13 | turbulent     |             20000 |         0.0265723 |
 
-./outputs/friction_factor_vs_reynolds_number.png
+![Plot](./outputs/friction_factor_vs_reynolds_number.png)
 
 |   temperature |   kinematic_viscosity |
 |--------------:|----------------------:|
@@ -76,7 +76,7 @@ dst: ./outputs/
 |            80 |             3.643e-07 |
 |            85 |             3.42e-07  |
 
-./outputs/water_kinematic_viscosity_vs_temperature.png
+![Plot](./outputs/water_kinematic_viscosity_vs_temperature.png)
 
 diameter: 0.003m
 length: 0.5m
@@ -127,9 +127,9 @@ Kinematic Viscosity: 8.925999999999999e-07 m^2/s
 |             7 |       0.17  |    0.17  |     60 | 2.83333e-06 |  0.400835  |          0.124557 |          1347.19  |
 |             8 |       0.214 |    0.21  |     60 | 3.5e-06     |  0.495149  |          0.102753 |          1664.18  |
 
-./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_33.png
+![Plot](./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_33.png)
 
-./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_33.png
+![Plot](./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_33.png)
 
 --------------------------------------------------------------------------------
 
@@ -177,9 +177,9 @@ Kinematic Viscosity: 8.925999999999999e-07 m^2/s
 |             2 |       0.261 |    0.225 |     60 | 3.75e-06    |  0.530516  |          0.109167 |          1783.05  |
 |             3 |       0.325 |    0.245 |     60 | 4.08333e-06 |  0.577673  |          0.114649 |          1941.54  |
 
-./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_34.png
+![Plot](./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_34.png)
 
-./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_34.png
+![Plot](./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_34.png)
 
 --------------------------------------------------------------------------------
 
@@ -227,9 +227,9 @@ Kinematic Viscosity: 9.24815e-07 m^2/s
 |             7 |       0.149 |    0.15  |     60 | 2.5e-06     |   0.353678 |          0.140224 |          1147.29  |
 |             8 |       0.169 |    0.165 |     60 | 2.75e-06    |   0.389045 |          0.131443 |          1262.02  |
 
-./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_35.png
+![Plot](./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_35.png)
 
-./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_35.png
+![Plot](./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_35.png)
 
 --------------------------------------------------------------------------------
 
@@ -277,9 +277,9 @@ Kinematic Viscosity: 9.0695e-07 m^2/s
 |             8 |       0.295 |    0.235 |     60 | 3.91667e-06 |  0.554095  |          0.113111 |          1832.83  |
 |             2 |       0.341 |    0.25  |     60 | 4.16667e-06 |  0.589463  |          0.115529 |          1949.82  |
 
-./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_36.png
+![Plot](./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_36.png)
 
-./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_36.png
+![Plot](./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_36.png)
 
 --------------------------------------------------------------------------------
 
@@ -330,9 +330,9 @@ Kinematic Viscosity: 8.3196e-07 m^2/s
 |             8 |       0.08  |    0.094 |  60.22 | 1.56094e-06 |  0.220828  |          0.193122 |           796.294 |
 |             9 |       0.095 |    0.102 |  60.07 | 1.69802e-06 |  0.240221  |          0.1938   |           866.221 |
 
-./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_37.png
+![Plot](./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_37.png)
 
-./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_37.png
+![Plot](./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_37.png)
 
 --------------------------------------------------------------------------------
 
@@ -380,9 +380,9 @@ Kinematic Viscosity: 7.73e-07 m^2/s
 |             7 |       0.244 |    0.215 |     60 | 3.58333e-06 |   0.506938 |          0.111771 |          1967.42  |
 |             8 |       0.274 |    0.22  |     60 | 3.66667e-06 |   0.518727 |          0.119873 |          2013.17  |
 
-./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_38.png
+![Plot](./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_38.png)
 
-./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_38.png
+![Plot](./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_38.png)
 
 --------------------------------------------------------------------------------
 
@@ -430,9 +430,9 @@ Kinematic Viscosity: 8.2311e-07 m^2/s
 |             7 |       0.12  |    0.13  |  59.75 | 2.17573e-06 |  0.307803  |          0.149103 |          1121.85  |
 |             8 |       0.149 |    0.15  |  59.85 | 2.50627e-06 |  0.354564  |          0.139523 |          1292.28  |
 
-./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_39.png
+![Plot](./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_39.png)
 
-./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_39.png
+![Plot](./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_39.png)
 
 --------------------------------------------------------------------------------
 
@@ -480,9 +480,9 @@ Kinematic Viscosity: 8.391799999999999e-07 m^2/s
 |             7 |       0.15  |    0.157 |     60 | 2.61667e-06 |   0.370183 |          0.128857 |          1323.37  |
 |             8 |       0.162 |    0.163 |     60 | 2.71667e-06 |   0.38433  |          0.129109 |          1373.95  |
 
-./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_40.png
+![Plot](./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_40.png)
 
-./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_40.png
+![Plot](./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_40.png)
 
 --------------------------------------------------------------------------------
 
@@ -530,9 +530,9 @@ Kinematic Viscosity: 7.841999999999999e-07 m^2/s
 |             7 |       0.206 |    0.2   |     60 | 3.33333e-06 |   0.47157  |          0.10905  |          1804.02  |
 |             8 |       0.228 |    0.212 |     60 | 3.53333e-06 |   0.499864 |          0.107419 |          1912.26  |
 
-./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_41.png
+![Plot](./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_41.png)
 
-./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_41.png
+![Plot](./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_41.png)
 
 --------------------------------------------------------------------------------
 
@@ -580,9 +580,9 @@ Kinematic Viscosity: 7.73e-07 m^2/s
 |             7 |       0.024 |     0.22 |     60 | 3.66667e-06 |   0.518727 |         0.0104999 |          2013.17  |
 |             8 |       0.027 |     0.22 |     60 | 3.66667e-06 |   0.518727 |         0.0118123 |          2013.17  |
 
-./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_42.png
+![Plot](./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_42.png)
 
-./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_42.png
+![Plot](./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_42.png)
 
 --------------------------------------------------------------------------------
 
@@ -633,9 +633,9 @@ Kinematic Viscosity: 7.81e-07 m^2/s
 |             8 |       0.083 |    0.095 |     60 | 1.58333e-06 |  0.223996  |          0.194737 |           860.419 |
 |             9 |       0.116 |    0.13  |     60 | 2.16667e-06 |  0.306521  |          0.145341 |          1177.42  |
 
-./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_43.png
+![Plot](./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_43.png)
 
-./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_43.png
+![Plot](./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_43.png)
 
 --------------------------------------------------------------------------------
 
@@ -683,9 +683,9 @@ Kinematic Viscosity: 7.73e-07 m^2/s
 |             7 |       0.244 |    0.215 |     60 | 3.58333e-06 |   0.506938 |          0.111771 |          1967.42  |
 |             8 |       0.274 |    0.22  |     60 | 3.66667e-06 |   0.518727 |          0.119873 |          2013.17  |
 
-./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_44.png
+![Plot](./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_44.png)
 
-./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_44.png
+![Plot](./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_44.png)
 
 --------------------------------------------------------------------------------
 
@@ -736,9 +736,9 @@ Kinematic Viscosity: 7.682e-07 m^2/s
 |             8 |       0.175 |    0.185 |     60 | 3.08333e-06 |  0.436202  |          0.108271 |         1703.47   |
 |             9 |       0.207 |    0.19  |     60 | 3.16667e-06 |  0.447992  |          0.121417 |         1749.51   |
 
-./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_45.png
+![Plot](./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_45.png)
 
-./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_45.png
+![Plot](./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_45.png)
 
 --------------------------------------------------------------------------------
 
@@ -786,9 +786,9 @@ Kinematic Viscosity: 8.925999999999999e-07 m^2/s
 |             7 |       0.195 |     0.1  |     30 | 3.33333e-06 |  0.47157   |          0.103227 |          1584.93  |
 |             8 |       0.237 |     0.1  |     30 | 3.33333e-06 |  0.47157   |          0.12546  |          1584.93  |
 
-./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_46.png
+![Plot](./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_46.png)
 
-./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_46.png
+![Plot](./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_46.png)
 
 --------------------------------------------------------------------------------
 
@@ -836,9 +836,9 @@ Kinematic Viscosity: 7.335500000000001e-07 m^2/s
 |             7 |       0.152 |    0.16  |     60 | 2.66667e-06 |   0.377256 |          0.125725 |          1542.86  |
 |             8 |       0.168 |    0.18  |     60 | 3e-06       |   0.424413 |          0.109795 |          1735.72  |
 
-./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_47.png
+![Plot](./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_47.png)
 
-./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_47.png
+![Plot](./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_47.png)
 
 --------------------------------------------------------------------------------
 
@@ -889,9 +889,9 @@ Kinematic Viscosity: 8.177999999999999e-07 m^2/s
 |             8 |       0.078 |    0.09  |     60 | 1.5e-06     |  0.212207  |          0.203905 |           778.454 |
 |             9 |       0.086 |    0.1   |     60 | 1.66667e-06 |  0.235785  |          0.182103 |           864.949 |
 
-./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_48.png
+![Plot](./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_48.png)
 
-./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_48.png
+![Plot](./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_48.png)
 
 --------------------------------------------------------------------------------
 
@@ -939,9 +939,9 @@ Kinematic Viscosity: 8.925999999999999e-07 m^2/s
 |             7 |       0.306 |    0.222 |     60 | 3.7e-06     |   0.523443 |          0.131472 |          1759.27  |
 |             8 |       0.337 |    0.232 |     60 | 3.86667e-06 |   0.547021 |          0.132578 |          1838.52  |
 
-./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_49.png
+![Plot](./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_49.png)
 
-./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_49.png
+![Plot](./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_49.png)
 
 --------------------------------------------------------------------------------
 
@@ -989,9 +989,9 @@ Kinematic Viscosity: 8.653e-07 m^2/s
 |             7 |       0.135 |    0.139 |  60.5  | 2.29752e-06 |  0.325033  |          0.150428 |          1126.89  |
 |             8 |       0.164 |    0.162 |  60.37 | 2.68345e-06 |  0.379631  |          0.133959 |          1316.18  |
 
-./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_50.png
+![Plot](./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_50.png)
 
-./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_50.png
+![Plot](./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_50.png)
 
 --------------------------------------------------------------------------------
 
@@ -1039,9 +1039,9 @@ Kinematic Viscosity: 8.539e-07 m^2/s
 |             7 |       0.194 |    0.18  |     60 | 3e-06       |  0.424413  |          0.126787 |          1491.09  |
 |             8 |       0.27  |    0.225 |     60 | 3.75e-06    |  0.530516  |          0.112932 |          1863.86  |
 
-./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_51.png
+![Plot](./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_51.png)
 
-./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_51.png
+![Plot](./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_51.png)
 
 --------------------------------------------------------------------------------
 
@@ -1089,9 +1089,9 @@ Kinematic Viscosity: 8.653e-07 m^2/s
 |             7 |       0.135 |    0.139 |  60.5  | 2.29752e-06 |  0.325033  |          0.150428 |          1126.89  |
 |             8 |       0.164 |    0.162 |  60.37 | 2.68345e-06 |  0.379631  |          0.133959 |          1316.18  |
 
-./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_52.png
+![Plot](./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_52.png)
 
-./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_52.png
+![Plot](./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_52.png)
 
 --------------------------------------------------------------------------------
 
@@ -1139,9 +1139,9 @@ Kinematic Viscosity: 8.024099999999999e-07 m^2/s
 |             7 |       0.165 |    0.175 |     60 | 2.91667e-06 |   0.412624 |         0.114084  |          1542.69  |
 |             8 |       0.187 |    0.2   |     60 | 3.33333e-06 |   0.47157  |         0.0989918 |          1763.08  |
 
-./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_53.png
+![Plot](./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_53.png)
 
-./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_53.png
+![Plot](./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_53.png)
 
 --------------------------------------------------------------------------------
 
@@ -1189,9 +1189,9 @@ Kinematic Viscosity: 8.177999999999999e-07 m^2/s
 |             7 |       0.136 |    0.15  |     60 | 2.5e-06     |   0.353678 |          0.127989 |          1297.42  |
 |             8 |       0.154 |    0.16  |     60 | 2.66667e-06 |   0.377256 |          0.127379 |          1383.92  |
 
-./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_54.png
+![Plot](./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_54.png)
 
-./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_54.png
+![Plot](./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_54.png)
 
 --------------------------------------------------------------------------------
 
@@ -1239,9 +1239,9 @@ Kinematic Viscosity: 7.957499999999999e-07 m^2/s
 |             7 |       0.163 |    0.165 |     60 | 2.75e-06    |   0.389045 |          0.126776 |          1466.71  |
 |             8 |       0.18  |    0.177 |     60 | 2.95e-06    |   0.41734  |          0.121659 |          1573.38  |
 
-./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_55.png
+![Plot](./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_55.png)
 
-./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_55.png
+![Plot](./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_55.png)
 
 --------------------------------------------------------------------------------
 
@@ -1289,9 +1289,9 @@ Kinematic Viscosity: 8.2665e-07 m^2/s
 |             7 |       0.083 |    0.087 |     60 | 1.45e-06    |   0.205133 |          0.232197 |           744.449 |
 |             8 |       0.1   |    0.115 |     60 | 1.91667e-06 |   0.271153 |          0.160111 |           984.042 |
 
-./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_56.png
+![Plot](./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_56.png)
 
-./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_56.png
+![Plot](./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_56.png)
 
 --------------------------------------------------------------------------------
 
@@ -1339,9 +1339,9 @@ Kinematic Viscosity: 8.614999999999999e-07 m^2/s
 |             7 |       0.228 |    0.202 |  59.75 | 3.38075e-06 |   0.478279 |          0.117334 |          1665.51  |
 |             8 |       0.258 |    0.219 |  60.03 | 3.64818e-06 |   0.516111 |          0.114021 |          1797.25  |
 
-./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_57.png
+![Plot](./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_57.png)
 
-./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_57.png
+![Plot](./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_57.png)
 
 --------------------------------------------------------------------------------
 
@@ -1389,9 +1389,9 @@ Kinematic Viscosity: 9.1523e-07 m^2/s
 |             7 |       0.159 |    0.155 |     60 | 2.58333e-06 |  0.365467  |          0.140136 |          1197.95  |
 |             8 |       0.201 |    0.18  |     60 | 3e-06       |  0.424413  |          0.131362 |          1391.17  |
 
-./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_58.png
+![Plot](./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_58.png)
 
-./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_58.png
+![Plot](./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_58.png)
 
 --------------------------------------------------------------------------------
 
@@ -1439,9 +1439,9 @@ Kinematic Viscosity: 8.558e-07 m^2/s
 |             7 |       0.16  | 0.1647   |     60 |   2.745e-06 |  0.388338  |          0.124897 |          1361.32  |
 |             8 |       0.179 | 0.18012  |     60 |   3.002e-06 |  0.424696  |          0.116828 |          1488.77  |
 
-./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_59.png
+![Plot](./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_59.png)
 
-./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_59.png
+![Plot](./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_59.png)
 
 --------------------------------------------------------------------------------
 
@@ -1489,9 +1489,9 @@ Kinematic Viscosity: 8.8472e-07 m^2/s
 |             2 |       0.231 |    0.21  |     60 | 3.5e-06     |   0.495149 |         0.110915  |          1679     |
 |             1 |       0.28  |    0.245 |     60 | 4.08333e-06 |   0.577673 |         0.0987742 |          1958.83  |
 
-./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_60.png
+![Plot](./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_60.png)
 
-./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_60.png
+![Plot](./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_60.png)
 
 --------------------------------------------------------------------------------
 
@@ -1539,9 +1539,9 @@ Kinematic Viscosity: 8.391799999999999e-07 m^2/s
 |             7 |       0.172 |     0.17 |     60 | 2.83333e-06 |   0.400835 |          0.126023 |          1432.95  |
 |             8 |       0.255 |     0.22 |     60 | 3.66667e-06 |   0.518727 |          0.111561 |          1854.41  |
 
-./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_61.png
+![Plot](./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_61.png)
 
-./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_61.png
+![Plot](./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_61.png)
 
 --------------------------------------------------------------------------------
 
@@ -1589,9 +1589,9 @@ Kinematic Viscosity: 8.925999999999999e-07 m^2/s
 |             7 |       0.107 |     0.12 |     60 | 2e-06       |   0.282942 |          0.15734  |           950.959 |
 |             8 |       0.114 |     0.13 |     60 | 2.16667e-06 |   0.306521 |          0.142835 |          1030.21  |
 
-./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_62.png
+![Plot](./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_62.png)
 
-./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_62.png
+![Plot](./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_62.png)
 
 --------------------------------------------------------------------------------
 
@@ -1639,9 +1639,9 @@ Kinematic Viscosity: 8.446999999999999e-07 m^2/s
 |             7 |       0.104 |     0.11 |     60 | 1.83333e-06 |   0.259364 |          0.181998 |           921.145 |
 |             8 |       0.115 |     0.13 |     60 | 2.16667e-06 |   0.306521 |          0.144088 |          1088.63  |
 
-./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_63.png
+![Plot](./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_63.png)
 
-./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_63.png
+![Plot](./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_63.png)
 
 --------------------------------------------------------------------------------
 
@@ -1689,7 +1689,7 @@ Kinematic Viscosity: 8.925999999999999e-07 m^2/s
 |             7 |       0.186 |    0.2   |  59.79 | 3.34504e-06 |   0.473226 |         0.0977744 |          1590.5   |
 |             8 |       0.239 |    0.22  |  59.85 | 3.67586e-06 |   0.520027 |         0.104039  |          1747.8   |
 
-./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_64.png
+![Plot](./outputs/Plot_friction_factor_vs_reynolds_number_pipe_test__Group_64.png)
 
-./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_64.png
+![Plot](./outputs/Plot_head_loss_vs_velocity_pipe_test__Group_64.png)
 

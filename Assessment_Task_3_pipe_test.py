@@ -150,7 +150,7 @@ def calculations(
     fig.clf()
     plt.close(fig=fig)
 
-    print(f'{fname}')
+    print(f'![Plot]({fname})')
     print()
 
     # plot
@@ -179,7 +179,7 @@ def calculations(
     fig.clf()
     plt.close(fig=fig)
 
-    print(f'{fname}')
+    print(f'![Plot]({fname})')
     print()
 
 # %%
@@ -247,7 +247,7 @@ def main(input_dir, output_dir):
     fig.clf()
     plt.close(fig=fig)
 
-    print(f'{fname}')
+    print(f'![Plot]({fname})')
     print()
 
 # %% [markdown]
@@ -275,7 +275,7 @@ def main(input_dir, output_dir):
     fig.clf()
     plt.close(fig=fig)
 
-    print(f'{fname}')
+    print(f'![Plot]({fname})')
     print()
 
 # %% [markdown]
