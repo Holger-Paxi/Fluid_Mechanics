@@ -2,25 +2,8 @@
 import pandas as pd
 import glob
 import os
+import traceback
 import matplotlib.pyplot as plt
-
-# %% [markdown]
-# # Inputs
-
-# %%
-input_dir = './Inputs_Assessment_Task_3_Laboratory_Report/'
-output_dir = './Outputs_Assessment_Task_3_Laboratory_Report/'
-
-print(
-    '='*20, 
-    input_dir,
-    output_dir,
-    '-'*10, '\n', 
-    sep='\n'
-    )
-
-# %% [markdown]
-# # create output directory
 
 # %%
 def create_output_dir(arg_output_dir):
@@ -31,22 +14,6 @@ def create_output_dir(arg_output_dir):
     """
     if not os.path.exists(arg_output_dir):
         os.makedirs(arg_output_dir)
-
-# %%
-create_output_dir(output_dir)
-print('='*20, output_dir, '-'*10, '\n', sep='\n')
-
-# %% [markdown]
-# # Bernoulli apparatus properties
-
-# %%
-dist = pd.Series(data=[0, 0.06028, 0.06868, 0.07318, 0.08108, 0.14154],name='dist')
-area = pd.Series(data=[0.00049, 0.00015, 0.00011, 0.00009, 0.000079, 0.00049], name='area')
-bernoulli_aparatus = pd.concat([dist, area], axis=1)
-print('='*20, bernoulli_aparatus, '-'*10, '\n', sep='\n')
-
-# %% [markdown]
-# # read files
 
 # %%
 def list_files(arg_directory_path, arg_regex, arg_column_name='file_path'):
@@ -65,19 +32,18 @@ def list_files(arg_directory_path, arg_regex, arg_column_name='file_path'):
     return list_files
 
 # %%
-measurements = list_files(input_dir, 'bernoulli*.csv', 'file_path')
-measurements['file_name'] = measurements.file_path. str.split(pat='/').str[-1]
-print('='*20, measurements, '-'*10, '\n', sep='\n')
-
-# %% [markdown]
-# # Calculation and graphs
-
-# %%
-def calculations(arg_file_path, arg_file_name, arg_output_dir=output_dir, arg_dist=dist, arg_area=area):
+def calculations(arg_file_path, arg_file_name, arg_output_dir, arg_dist, arg_area):
 
     # raw data
     test = pd.read_csv(filepath_or_buffer=arg_file_path)
-    print('='*20, arg_file_name, '-'*10, 'raw data', '-'*10, test, '\n', sep='\n')
+    print(
+        '-'*80, '',
+        f'# {arg_file_name}', '',
+        '## raw data', '',
+        test.to_markdown(index=False), '',
+        sep='\n'
+    )
+    # print('\n')
 
     # SI units
     test['dist'] = arg_dist
@@ -90,7 +56,12 @@ def calculations(arg_file_path, arg_file_name, arg_output_dir=output_dir, arg_di
     test['measured_total_head'] = test.total_head/1000
     test = test[test.columns[[0,5,6,7,8,9,10,11,12]]]
     test.to_csv(path_or_buf='{}SI_units_{}'.format(arg_output_dir, arg_file_name), index=False)
-    print('='*20, arg_file_name, '-'*10, 'SI units data', '-'*10, test, '\n', sep='\n')
+    print(
+        '## SI units data', '',
+        test.to_markdown(index=False), '',
+        sep='\n'
+    )
+    # print('\n')
 
     # plot
     fig, ax = plt.subplots(figsize=(10,6))
@@ -118,21 +89,104 @@ def calculations(arg_file_path, arg_file_name, arg_output_dir=output_dir, arg_di
         '-o',
         label='measured total head'
         )
-    
+
     ax.legend()
     ax.grid(visible=True, which='both')
     ax.set_title(label='Pressure vs Distance\n{}'.format(arg_file_name.split(sep='.')[0]))
     ax.set_xlabel(xlabel='Distance in ($m$)')
     ax.set_ylabel(ylabel='Pressure in height ($m$)')
-    fig.savefig(fname='{}Plot_{}.png'.format(arg_output_dir, arg_file_name.split(sep='.')[0]))
+    fname='{}Plot_{}.png'.format(arg_output_dir, arg_file_name.split(sep='.')[0])
+    fig.savefig(fname=fname)
     ax.cla()
     fig.clf()
     plt.close(fig=fig)
 
-# %%
-measurements.apply(func=lambda arg: calculations(arg.file_path, arg.file_name), axis=1)
+    print(f'{fname}')
+    print()
 
 # %%
+def main(input_dir, output_dir):
 
+    print(
+        '-'*80, '',
+        '# Inputs & Outputs', '',
+        f'src: {input_dir}',
+        f'dst: {output_dir}', '',
+        sep='\n'
+        )
+    # print('\n')
 
+# %% [markdown]
+# # create output directory
+    create_output_dir(output_dir)
+# print('='*20, output_dir, '-'*10, '\n', sep='\n')
+
+# %% [markdown]
+# # Bernoulli apparatus properties
+
+    dist = pd.Series(data=[0, 0.06028, 0.06868, 0.07318, 0.08108, 0.14154],name='dist')
+    area = pd.Series(data=[0.00049, 0.00015, 0.00011, 0.00009, 0.000079, 0.00049], name='area')
+    bernoulli_aparatus = pd.concat([dist, area], axis=1)
+    print(
+        bernoulli_aparatus.to_markdown(index=True), '',
+        sep='\n'
+    )
+    # print('\n')
+
+# %% [markdown]
+# # read files
+
+    measurements = list_files(input_dir, 'bernoulli*.csv', 'file_path')
+    measurements['file_name'] = measurements.file_path. str.split(pat='/').str[-1]
+# print('='*20, measurements, '-'*10, '\n', sep='\n')
+
+# %% [markdown]
+# # Calculation and graphs
+
+    # measurements.apply(
+    #     func=lambda arg: calculations(
+    #         arg.file_path, arg.file_name, 
+    #         arg_output_dir=output_dir, arg_dist=dist, arg_area=area
+    #     ), 
+    #     axis=1
+    # )
+    for _, row in measurements.iterrows():
+
+        try:
+            calculations(
+                row.file_path,
+                row.file_name,
+                arg_output_dir=output_dir,
+                arg_dist=dist,
+                arg_area=area
+            )
+
+        except Exception as error:
+            print()
+            print('-' * 80)
+            print(f'ERROR PROCESSING: {row.file_name}')
+            print(f'FILE: {row.file_path}')
+            print(f'ERROR TYPE: {type(error).__name__}')
+            print(f'ERROR: {error}')
+            print('-' * 80)
+            traceback.print_exc()
+            print('-' * 80)
+            print()
+
+            continue
+
+# %%
+
+if __name__ == '__main__':
+
+# %% [markdown]
+# # Inputs
+
+# %%
+    # input_dir = './Inputs_Assessment_Task_3_Laboratory_Report/'
+    # output_dir = './Outputs_Assessment_Task_3_Laboratory_Report/'
+    input_dir = './inputs/'
+    output_dir = './outputs/'
+
+    main(input_dir, output_dir)
 
